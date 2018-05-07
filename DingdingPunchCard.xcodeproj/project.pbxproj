@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0221D05720954FF900E5662E /* start.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 0221D05620954FF900E5662E /* start.gpx */; };
+		02C269CA2094EB8B000CFA9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C269C92094EB8B000CFA9F /* AppDelegate.m */; };
+		02C269CD2094EB8B000CFA9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C269CC2094EB8B000CFA9F /* ViewController.m */; };
+		02C269D02094EB8B000CFA9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02C269CE2094EB8B000CFA9F /* Main.storyboard */; };
+		02C269D22094EB8D000CFA9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C269D12094EB8D000CFA9F /* Assets.xcassets */; };
+		02C269D52094EB8D000CFA9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02C269D32094EB8D000CFA9F /* LaunchScreen.storyboard */; };
+		02C269D82094EB8D000CFA9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C269D72094EB8D000CFA9F /* main.m */; };
+		02C269E22094EB8D000CFA9F /* DingdingPunchCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C269E12094EB8D000CFA9F /* DingdingPunchCardTests.m */; };
+		02C269ED2094EB8D000CFA9F /* DingdingPunchCardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C269EC2094EB8D000CFA9F /* DingdingPunchCardUITests.m */; };
+		02C269FC2094EC3A000CFA9F /* CoreLocationTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C269FB2094EC3A000CFA9F /* CoreLocationTransform.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02C269DE2094EB8D000CFA9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02C269BD2094EB8B000CFA9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02C269C42094EB8B000CFA9F;
+			remoteInfo = DingdingPunchCard;
+		};
+		02C269E92094EB8D000CFA9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02C269BD2094EB8B000CFA9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02C269C42094EB8B000CFA9F;
+			remoteInfo = DingdingPunchCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0221D05620954FF900E5662E /* start.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = start.gpx; sourceTree = "<group>"; };
+		02C269C52094EB8B000CFA9F /* DingdingPunchCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DingdingPunchCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C269C82094EB8B000CFA9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02C269C92094EB8B000CFA9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02C269CB2094EB8B000CFA9F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		02C269CC2094EB8B000CFA9F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		02C269CF2094EB8B000CFA9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02C269D12094EB8D000CFA9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02C269D42094EB8D000CFA9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02C269D62094EB8D000CFA9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02C269D72094EB8D000CFA9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02C269DD2094EB8D000CFA9F /* DingdingPunchCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DingdingPunchCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C269E12094EB8D000CFA9F /* DingdingPunchCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DingdingPunchCardTests.m; sourceTree = "<group>"; };
+		02C269E32094EB8D000CFA9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02C269E82094EB8D000CFA9F /* DingdingPunchCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DingdingPunchCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C269EC2094EB8D000CFA9F /* DingdingPunchCardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DingdingPunchCardUITests.m; sourceTree = "<group>"; };
+		02C269EE2094EB8D000CFA9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02C269FA2094EC3A000CFA9F /* CoreLocationTransform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreLocationTransform.h; sourceTree = "<group>"; };
+		02C269FB2094EC3A000CFA9F /* CoreLocationTransform.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreLocationTransform.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02C269C22094EB8B000CFA9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C269DA2094EB8D000CFA9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C269E52094EB8D000CFA9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02C269BC2094EB8B000CFA9F = {
+			isa = PBXGroup;
+			children = (
+				02C269C72094EB8B000CFA9F /* DingdingPunchCard */,
+				02C269E02094EB8D000CFA9F /* DingdingPunchCardTests */,
+				02C269EB2094EB8D000CFA9F /* DingdingPunchCardUITests */,
+				02C269C62094EB8B000CFA9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02C269C62094EB8B000CFA9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02C269C52094EB8B000CFA9F /* DingdingPunchCard.app */,
+				02C269DD2094EB8D000CFA9F /* DingdingPunchCardTests.xctest */,
+				02C269E82094EB8D000CFA9F /* DingdingPunchCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02C269C72094EB8B000CFA9F /* DingdingPunchCard */ = {
+			isa = PBXGroup;
+			children = (
+				0221D05620954FF900E5662E /* start.gpx */,
+				02C269C82094EB8B000CFA9F /* AppDelegate.h */,
+				02C269C92094EB8B000CFA9F /* AppDelegate.m */,
+				02C269CB2094EB8B000CFA9F /* ViewController.h */,
+				02C269CC2094EB8B000CFA9F /* ViewController.m */,
+				02C269FA2094EC3A000CFA9F /* CoreLocationTransform.h */,
+				02C269FB2094EC3A000CFA9F /* CoreLocationTransform.m */,
+				02C269CE2094EB8B000CFA9F /* Main.storyboard */,
+				02C269D12094EB8D000CFA9F /* Assets.xcassets */,
+				02C269D32094EB8D000CFA9F /* LaunchScreen.storyboard */,
+				02C269D62094EB8D000CFA9F /* Info.plist */,
+				02C269D72094EB8D000CFA9F /* main.m */,
+			);
+			path = DingdingPunchCard;
+			sourceTree = "<group>";
+		};
+		02C269E02094EB8D000CFA9F /* DingdingPunchCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				02C269E12094EB8D000CFA9F /* DingdingPunchCardTests.m */,
+				02C269E32094EB8D000CFA9F /* Info.plist */,
+			);
+			path = DingdingPunchCardTests;
+			sourceTree = "<group>";
+		};
+		02C269EB2094EB8D000CFA9F /* DingdingPunchCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02C269EC2094EB8D000CFA9F /* DingdingPunchCardUITests.m */,
+				02C269EE2094EB8D000CFA9F /* Info.plist */,
+			);
+			path = DingdingPunchCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02C269C42094EB8B000CFA9F /* DingdingPunchCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C269F12094EB8D000CFA9F /* Build configuration list for PBXNativeTarget "DingdingPunchCard" */;
+			buildPhases = (
+				02C269C12094EB8B000CFA9F /* Sources */,
+				02C269C22094EB8B000CFA9F /* Frameworks */,
+				02C269C32094EB8B000CFA9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DingdingPunchCard;
+			productName = DingdingPunchCard;
+			productReference = 02C269C52094EB8B000CFA9F /* DingdingPunchCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02C269DC2094EB8D000CFA9F /* DingdingPunchCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C269F42094EB8D000CFA9F /* Build configuration list for PBXNativeTarget "DingdingPunchCardTests" */;
+			buildPhases = (
+				02C269D92094EB8D000CFA9F /* Sources */,
+				02C269DA2094EB8D000CFA9F /* Frameworks */,
+				02C269DB2094EB8D000CFA9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02C269DF2094EB8D000CFA9F /* PBXTargetDependency */,
+			);
+			name = DingdingPunchCardTests;
+			productName = DingdingPunchCardTests;
+			productReference = 02C269DD2094EB8D000CFA9F /* DingdingPunchCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02C269E72094EB8D000CFA9F /* DingdingPunchCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C269F72094EB8D000CFA9F /* Build configuration list for PBXNativeTarget "DingdingPunchCardUITests" */;
+			buildPhases = (
+				02C269E42094EB8D000CFA9F /* Sources */,
+				02C269E52094EB8D000CFA9F /* Frameworks */,
+				02C269E62094EB8D000CFA9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02C269EA2094EB8D000CFA9F /* PBXTargetDependency */,
+			);
+			name = DingdingPunchCardUITests;
+			productName = DingdingPunchCardUITests;
+			productReference = 02C269E82094EB8D000CFA9F /* DingdingPunchCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02C269BD2094EB8B000CFA9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = ElegantLiar;
+				TargetAttributes = {
+					02C269C42094EB8B000CFA9F = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					02C269DC2094EB8D000CFA9F = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 02C269C42094EB8B000CFA9F;
+					};
+					02C269E72094EB8D000CFA9F = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 02C269C42094EB8B000CFA9F;
+					};
+				};
+			};
+			buildConfigurationList = 02C269C02094EB8B000CFA9F /* Build configuration list for PBXProject "DingdingPunchCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02C269BC2094EB8B000CFA9F;
+			productRefGroup = 02C269C62094EB8B000CFA9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02C269C42094EB8B000CFA9F /* DingdingPunchCard */,
+				02C269DC2094EB8D000CFA9F /* DingdingPunchCardTests */,
+				02C269E72094EB8D000CFA9F /* DingdingPunchCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02C269C32094EB8B000CFA9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0221D05720954FF900E5662E /* start.gpx in Resources */,
+				02C269D52094EB8D000CFA9F /* LaunchScreen.storyboard in Resources */,
+				02C269D22094EB8D000CFA9F /* Assets.xcassets in Resources */,
+				02C269D02094EB8B000CFA9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C269DB2094EB8D000CFA9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C269E62094EB8D000CFA9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02C269C12094EB8B000CFA9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C269FC2094EC3A000CFA9F /* CoreLocationTransform.m in Sources */,
+				02C269CD2094EB8B000CFA9F /* ViewController.m in Sources */,
+				02C269D82094EB8D000CFA9F /* main.m in Sources */,
+				02C269CA2094EB8B000CFA9F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C269D92094EB8D000CFA9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C269E22094EB8D000CFA9F /* DingdingPunchCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C269E42094EB8D000CFA9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C269ED2094EB8D000CFA9F /* DingdingPunchCardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02C269DF2094EB8D000CFA9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02C269C42094EB8B000CFA9F /* DingdingPunchCard */;
+			targetProxy = 02C269DE2094EB8D000CFA9F /* PBXContainerItemProxy */;
+		};
+		02C269EA2094EB8D000CFA9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02C269C42094EB8B000CFA9F /* DingdingPunchCard */;
+			targetProxy = 02C269E92094EB8D000CFA9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02C269CE2094EB8B000CFA9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02C269CF2094EB8B000CFA9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02C269D32094EB8D000CFA9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02C269D42094EB8D000CFA9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02C269EF2094EB8D000CFA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02C269F02094EB8D000CFA9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02C269F22094EB8D000CFA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EACARN623L;
+				INFOPLIST_FILE = DingdingPunchCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abeautifulliar.DingdingPunchCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02C269F32094EB8D000CFA9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EACARN623L;
+				INFOPLIST_FILE = DingdingPunchCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abeautifulliar.DingdingPunchCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02C269F52094EB8D000CFA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DingdingPunchCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abeautifulliar.DingdingPunchCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DingdingPunchCard.app/DingdingPunchCard";
+			};
+			name = Debug;
+		};
+		02C269F62094EB8D000CFA9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DingdingPunchCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abeautifulliar.DingdingPunchCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DingdingPunchCard.app/DingdingPunchCard";
+			};
+			name = Release;
+		};
+		02C269F82094EB8D000CFA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DingdingPunchCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abeautifulliar.DingdingPunchCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DingdingPunchCard;
+			};
+			name = Debug;
+		};
+		02C269F92094EB8D000CFA9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DingdingPunchCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abeautifulliar.DingdingPunchCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DingdingPunchCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02C269C02094EB8B000CFA9F /* Build configuration list for PBXProject "DingdingPunchCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C269EF2094EB8D000CFA9F /* Debug */,
+				02C269F02094EB8D000CFA9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C269F12094EB8D000CFA9F /* Build configuration list for PBXNativeTarget "DingdingPunchCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C269F22094EB8D000CFA9F /* Debug */,
+				02C269F32094EB8D000CFA9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C269F42094EB8D000CFA9F /* Build configuration list for PBXNativeTarget "DingdingPunchCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C269F52094EB8D000CFA9F /* Debug */,
+				02C269F62094EB8D000CFA9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C269F72094EB8D000CFA9F /* Build configuration list for PBXNativeTarget "DingdingPunchCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C269F82094EB8D000CFA9F /* Debug */,
+				02C269F92094EB8D000CFA9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02C269BD2094EB8B000CFA9F /* Project object */;
+}
